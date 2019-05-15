@@ -82,6 +82,41 @@ const Landing = () => (
         </Col>
       </Row>
 
+      <Row>
+        <Col>
+            <p>-</p>
+        </Col>
+      </Row>
+      
+      <Row>
+      <Col>
+          <p>-</p>
+        </Col>
+      <Col>
+          <CardDeck>
+            <Card href="#">
+            <Card.Img variant="top" src="https://s3.amazonaws.com/com.twilio.prod.twilio-docs/images/Screen-Shot-2018-03-02-at-10.21.52-AM.width-808.png" />
+            <Card.Body> 
+              <Card.Title>Emlscr</Card.Title>
+              <Card.Text>
+              A boilerplate python script used for email automation by leveraging the smtplib library and the Gmail API.
+              </Card.Text>
+            </Card.Body>
+            <Card.Link href="https://github.com/ce-williams/emlscr" target="_blank">Project Link</Card.Link>
+            <Card.Footer>
+              <small className="text-muted">Languages: Python</small>
+            </Card.Footer>
+            </Card>
+          </CardDeck>
+        </Col>
+        <Col>
+          <p>-</p>
+        </Col>
+      </Row>
+
+
+      
+
     </Container>
 
 
