@@ -11,11 +11,15 @@ import CardDeck from 'react-bootstrap/CardDeck'
 const Landing = () => (
 
   <div>
+    
 
     <div className="Buttons">
       <h2>
-        welcome
+        Curtis Williams - Recent Works
+        
     </h2>
+
+
     <Container>
       
       
@@ -75,7 +79,7 @@ const Landing = () => (
           </CardDeck>
         </Col>
       </Row>
-      
+
     </Container>
 
 
