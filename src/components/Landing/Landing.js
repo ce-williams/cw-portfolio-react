@@ -21,22 +21,25 @@ const Landing = () => (
 
 
     <Container>
+      <Row>
+
+      </Row>
       
       
       <Row>
         <Col>
           <CardDeck>
             <Card>
-              <Card.Img variant="top" src="holder.js/100px160" />
+              <Card.Img variant="top" src="https://business-school.exeter.ac.uk/media/universityofexeter/businessschool/styleassets/images/about/dept_finance.jpg" />
               <Card.Body>
-                <Card.Title>Card title</Card.Title>
+                <Card.Title>FinScr</Card.Title>
                 <Card.Text>
-                  This is a wider card with supporting text below as a natural lead-in to
-                  additional content. This content is a little bit longer.
+                Working version of a python script for monitoring a specified set of indicators for public companies. Libraries from previous projects were leveraged for this script.
                 </Card.Text>
               </Card.Body>
+              <Card.Link href="https://github.com/ce-williams/finscr" target="_blank">Project Link</Card.Link>
               <Card.Footer>
-                <small className="text-muted">Last updated 3 mins ago</small>
+                <small className="text-muted">Languages: Python</small>
               </Card.Footer>
             </Card>
           </CardDeck>
@@ -44,36 +47,35 @@ const Landing = () => (
 
         <Col>
           <CardDeck>
-            <Card>
-              <Card.Img variant="top" src="holder.js/100px160" />
-              <Card.Body>
-                <Card.Title>Card title</Card.Title>
-                <Card.Text>
-                  This card has supporting text below as a natural lead-in to additional
-                  content.{' '}
-                </Card.Text>
-              </Card.Body>
-              <Card.Footer>
-                <small className="text-muted">Last updated 3 mins ago</small>
-              </Card.Footer>
+            <Card href="#">
+            <Card.Img variant="top" src="https://thumbs.dreamstime.com/z/craigslist-home-page-montreal-canada-december-under-magnifying-glass-american-classified-advertisements-website-jobs-135143884.jpg" />
+            <Card.Body> 
+              <Card.Title>ClScr</Card.Title>
+              <Card.Text>
+              A simple python script used to output a specific query from craigslist. This project leverages the BS4 and Selenium libraries.
+              </Card.Text>
+            </Card.Body>
+            <Card.Link href="https://github.com/ce-williams/clscr" target="_blank">Project Link</Card.Link>
+            <Card.Footer>
+              <small className="text-muted">Languages: Python</small>
+            </Card.Footer>
             </Card>
           </CardDeck>
         </Col>
         
         <Col>
           <CardDeck>
-            <Card>
-            <Card.Img variant="top" src="holder.js/100px160" />
-            <Card.Body>
-              <Card.Title>Card title</Card.Title>
+            <Card href="#">
+            <Card.Img variant="top" src="https://miro.medium.com/max/1318/0*eSQte3e-rJeH7bu8.jpg" />
+            <Card.Body> 
+              <Card.Title>Pyxl</Card.Title>
               <Card.Text>
-                This is a wider card with supporting text below as a natural lead-in to
-                additional content. This card has even longer content than the first to
-                show that equal height action.
+              Deviation of csv automation, but leveraging the openpyxl library for more robust workbooks in Excel.
               </Card.Text>
             </Card.Body>
+            <Card.Link href="https://github.com/ce-williams/pyxl" target="_blank">Project Link</Card.Link>
             <Card.Footer>
-              <small className="text-muted">Last updated 3 mins ago</small>
+              <small className="text-muted">Languages: Python</small>
             </Card.Footer>
             </Card>
           </CardDeck>
