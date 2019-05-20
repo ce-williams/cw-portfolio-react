@@ -5,18 +5,16 @@ import Row from 'react-bootstrap/Row'
 import Container from 'react-bootstrap/Container'
 import Card from 'react-bootstrap/Card'
 import CardDeck from 'react-bootstrap/CardDeck'
+import { Spring } from 'react-spring'
 
 
 
 const Landing = () => (
 
   <div>
-    
-
     <div className="Buttons">
       <h2>
         Curtis Williams - Recent Works
-        
     </h2>
 
 
