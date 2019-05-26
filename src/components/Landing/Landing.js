@@ -5,7 +5,8 @@ import Row from 'react-bootstrap/Row'
 import Container from 'react-bootstrap/Container'
 import Card from 'react-bootstrap/Card'
 import CardDeck from 'react-bootstrap/CardDeck'
-import { Spring } from 'react-spring'
+
+// import { Spring } from 'react-spring'
 
 
 

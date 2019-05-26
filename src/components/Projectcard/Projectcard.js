@@ -1,31 +1,54 @@
-import React, { Component } from "react";
-import "./Landing.css";
-import Col from 'react-bootstrap/Col'
-import Row from 'react-bootstrap/Row'
+import React from "react";
+import "./Projectcard.css";
+// import Col from 'react-bootstrap/Col'
+// import Row from 'react-bootstrap/Row'
 import Card from 'react-bootstrap/Card'
 import CardDeck from 'react-bootstrap/CardDeck'
-import { Spring } from 'react-spring'
+// import { Spring } from 'react-spring'
 
-export class Projectcard extends Component {
-    return(
-        <Col>
-          <CardDeck>
-            <Card>
-              <Card.Img variant="top" src="https://business-school.exeter.ac.uk/media/universityofexeter/businessschool/styleassets/images/about/dept_finance.jpg" />
-              <Card.Body>
-                <Card.Title>FinScr</Card.Title>
-                <Card.Text>
-                Working version of a python script for monitoring a specified set of indicators for public companies. Libraries from previous projects were leveraged for this script.
-                </Card.Text>
-              </Card.Body>
-              <Card.Link href="https://github.com/ce-williams/finscr" target="_blank">Project Link</Card.Link>
-              <Card.Footer>
-                <small className="text-muted">Languages: Python</small>
-              </Card.Footer>
-            </Card>
-          </CardDeck>
-        </Col>
-    )
-}
+const Projectcard = props => (
+//   <div className="card">
+//   <div className="img-container">
+//     <img alt={props.name} src={props.image} />
+//   </div>
+//   <div className="content">
+//     <ul>
+//       <li>
+//         <strong>Name:</strong> {props.name}
+//       </li>
+//       <li>
+//         <strong>Occupation:</strong> {props.occupation}
+//       </li>
+//       <li>
+//         <strong>Location:</strong> {props.location}
+//       </li>
+//     </ul>
+//   </div>
+//   <span onClick={() => props.removeFriend(props.id)} className="remove">
+//     𝘅
+//   </span>
+// </div>
+
+  // <Row>
+  //   <Col>
+      <CardDeck>
+        <Card>
+          <Card.Img variant="top" src={props.image} />
+            <Card.Body>
+              <Card.Title>{props.name}</Card.Title>
+              <Card.Text>
+                {props.info}
+              </Card.Text>
+            </Card.Body>
+            <Card.Link href={props.link} target="_blank">Project Link</Card.Link>
+            <Card.Footer>
+              <small className="text-muted">Languages: Python</small>
+            </Card.Footer>
+          </Card>
+        </CardDeck>
+  //   </Col>
+  // </Row>
+);
+
 
 export default Projectcard;
