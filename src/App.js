@@ -31,13 +31,14 @@ class App extends Component {
       // <Flex>
         <Wrapper>
           <Jumbotron>
-        <h1>Hello, world!</h1>
+        <h1>Welcome!</h1>
+        <br></br>    
+        <h3>Curtis Williams - Recent Projects</h3>
           <p>
-            This is a simple hero unit, a simple jumbotron-style component for calling
-            extra attention to featured content or information.
+            This is a sampling of recent projects of my portfolio.  This page was developed in React.js and developed with continious deployment via Netlify.
           </p>
           <p>
-            <Button variant="primary">Learn more</Button>
+            {/* <Button variant="primary">Learn more</Button> */}
           </p>
       </Jumbotron>
         {this.state.projects.map(project => (

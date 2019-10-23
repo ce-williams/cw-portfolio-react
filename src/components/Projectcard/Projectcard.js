@@ -42,7 +42,7 @@ const Projectcard = props => (
             </Card.Body>
             <Card.Link href={props.link} target="_blank">Project Link</Card.Link>
             <Card.Footer>
-              <small className="text-muted">Languages: Python</small>
+              <small className="text-muted">GitHub Repository Link Above</small>
             </Card.Footer>
           </Card>
         </CardDeck>
